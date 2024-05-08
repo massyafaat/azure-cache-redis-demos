@@ -58,5 +58,5 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'faatredis-ye6gkbfghwl6e-app-service.azurewebsites.net'
+          app-name: 'faatredis-ye6gkbfghwl6e-app-service'
           package: .
